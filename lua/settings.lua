@@ -13,10 +13,11 @@ cmd[[filetype plugin on]]
 cmd[[autocmd FileType * setlocal formatoptions-=cro]]
 
 -- Tabs {{{
-opt.expandtab = true                -- Use spaces by default
-opt.shiftwidth = 2                  -- Set amount of space characters, when we press "<" or ">"
-opt.tabstop = 2                     -- 1 tab equal 2 spaces
+opt.expandtab = false                -- Use spaces by default
+opt.shiftwidth = 4                  -- Set amount of space characters, when we press "<" or ">"
+opt.tabstop = 4                     -- 1 tab equal 2 spaces
 opt.smartindent = true              -- Turn on smart indentation. See in the docs for more info
+opt.autoindent = true
 -- }}}
 
 -- Clipboard {{{
