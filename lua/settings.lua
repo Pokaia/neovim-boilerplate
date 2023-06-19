@@ -12,6 +12,8 @@ cmd[[filetype plugin on]]
 -- Disable comments on pressing Enter
 cmd[[autocmd FileType * setlocal formatoptions-=cro]]
 
+opt.nu = true
+
 -- Tabs {{{
 opt.expandtab = false                -- Use spaces by default
 opt.shiftwidth = 4                  -- Set amount of space characters, when we press "<" or ">"
@@ -26,7 +28,8 @@ opt.fixeol = false -- Turn off appending new line in the end of a file
 -- }}}
 
 -- Folding {{{
-opt.foldmethod = 'syntax'
+opt.foldenable = false
+opt.foldmethod = "syntax"
 -- }}}
 
 -- Search {{{

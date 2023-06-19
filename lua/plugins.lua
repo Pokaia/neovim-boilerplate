@@ -124,6 +124,33 @@ return {
   },
   -- }}}
 
+  -- Theme: Tender {{{
+  {
+    "jacoborus/tender.vim",
+    lazy = false,
+    config = function ()
+      require "extensions.colorscheme.tender"
+    end
+  },
+  -- }}}
+
+  -- LuaLine {{{
+  {
+    'nvim-lualine/lualine.nvim',
+    lazy = false,
+    config = function()
+      require "extensions.lualine"
+    end
+  },
+
+  -- Symbols-outline {{{
+  {
+    'simrat39/symbols-outline.nvim',
+    lazy = false,
+    config = function()
+      require "extensions.symbols"
+    end
+  },
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0

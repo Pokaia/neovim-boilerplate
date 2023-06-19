@@ -15,7 +15,7 @@ lspkind.init({
     Function = "󰊕",
     Constructor = "",
     Field = "󰓼",
-    Variable = "",
+    Variable = "󰫧",
     Class = "󰠲",
     Interface = "",
     Module = "󰕳",
@@ -30,10 +30,10 @@ lspkind.init({
     Reference = "",
     Folder = "",
     EnumMember = "",
-    Constant = "",
+    Constant = "",
     Struct = "󰙅",
     Event = "",
     Operator = "",
-    TypeParameter = ""
+    TypeParameter = "󰊄"
   },
 })

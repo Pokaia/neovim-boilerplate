@@ -32,4 +32,10 @@ nm('gr', '<cmd>Trouble lsp_references<CR>')                                     
 nm('<leader>v', '<cmd>NeoTreeFocusToggle<CR>')                                        -- Toggle file explorer
 -- }}}
 
+-- General Vim
+nm('<F9>' ,'<cmd>noh<cr>')
+
+-- symbol list
+nm('<leader>s', '<cmd>SymbolsOutline<cr>')
+
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
