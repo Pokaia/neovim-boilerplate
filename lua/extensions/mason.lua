@@ -13,13 +13,13 @@ mason_lspconfig.setup({
   ensure_installed = {
     "lua_ls",             -- LSP for Lua language
     "tsserver",           -- LSP for Typescript and Javascript
-	"psalm",              -- LSP for PHP
     "emmet_ls",           -- LSP for Emmet (Vue, HTML, CSS)
     "cssls",              -- LSP for CSS
     "dockerls",           -- LSP for Docker
     "pyright",            -- LSP for Python
     "volar",              -- LSP for Vue
 	"marksman",           -- LSP for Markdown
+	"psalm",
   }
 });
 

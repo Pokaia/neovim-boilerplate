@@ -18,6 +18,7 @@ nm('ti', '<cmd>Telescope jumplist<CR>')                                   -- Sho
 nm('tO', '<cmd>Telescope find_files<CR>')                                 -- Search for a file (ignoring git-ignore)
 nm('tb', '<cmd>Telescope git_branches<CR>')                               -- Show git branches
 nm('tf', '<cmd>Telescope live_grep<CR>')                                  -- Find a string in project
+nm('ts', '<cmd>Telescope grep_string<CR>')                                -- Find the current string in project
 nm('tq', '<cmd>Telescope buffers<CR>')                                    -- Show all buffers
 nm('ta', '<cmd>Telescope<CR>')                                            -- Show all commands
 nm('tt', '<cmd>Telescope lsp_dynamic_workspace_symbols<CR>')              -- Search for dynamic symbols
