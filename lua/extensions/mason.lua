@@ -20,6 +20,8 @@ mason_lspconfig.setup({
     "volar",              -- LSP for Vue
 	"marksman",           -- LSP for Markdown
 	"intelephense",
+	"jsonls",
+	"yamlls",
   }
 });
 
