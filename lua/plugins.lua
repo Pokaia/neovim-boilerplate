@@ -151,6 +151,19 @@ return {
       require "extensions.symbols"
     end
   },
+
+  {
+    'preservim/tagbar',
+    lazy = false,
+  },
+
+  {
+    "EdenEast/nightfox.nvim",
+    lazy = false,
+    config = function ()
+      require "extensions.colorscheme.nightfox"
+    end
+  },
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0

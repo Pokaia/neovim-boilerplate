@@ -19,7 +19,7 @@ mason_lspconfig.setup({
     "pyright",            -- LSP for Python
     "volar",              -- LSP for Vue
 	"marksman",           -- LSP for Markdown
-	"psalm",
+	"intelephense",
   }
 });
 

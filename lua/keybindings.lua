@@ -39,4 +39,7 @@ nm('<F9>' ,'<cmd>noh<cr>')
 -- symbol list
 nm('<leader>s', '<cmd>SymbolsOutline<cr>')
 
+-- tagbar
+nm('<leader>t', '<cmd>TagbarToggle<cr>')
+
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
