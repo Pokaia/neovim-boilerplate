@@ -9,6 +9,7 @@ require "lazy-bootstrap"
 -- Settings
 require "settings"
 require "keybindings"
+require "commands"
 
 -- Plugin management {{{
 local lazy = require("lazy")
