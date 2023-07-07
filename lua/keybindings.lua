@@ -11,7 +11,7 @@ nm('gD', '<cmd>lua vim.lsp.buf.declaration()<cr>')                              
  -- }}}
 
 -- Telescope {{{
-nm('gd', '<cmd>Telescope lsp_definitions<CR>')                                    -- Goto declaration
+nm('gd', '<cmd>Telescope lsp_definitions<CR>')                            -- Goto declaration
 nm('tp', '<cmd>Telescope oldfiles<CR>')                                   -- Show recent files
 nm('to', '<cmd>Telescope git_files<CR>')                                  -- Search for a file in project
 nm('ti', '<cmd>Telescope jumplist<CR>')                                   -- Show jumplist (previous locations)
