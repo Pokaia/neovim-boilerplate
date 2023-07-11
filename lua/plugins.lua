@@ -164,6 +164,14 @@ return {
       require "extensions.colorscheme.nightfox"
     end
   },
+
+  {
+    "terrortylor/nvim-comment",
+    lazy = false,
+    config = function ()
+      require "extensions.nvim-comment"
+    end
+  },
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
