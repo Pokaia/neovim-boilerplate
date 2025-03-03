@@ -44,5 +44,3 @@ You can use this template with the following command:
 - [lspkind](https://github.com/onsails/lspkind.nvim)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - [Tree Sitter](https://github.com/tree-sitter/tree-sitter)
-
-test commit
