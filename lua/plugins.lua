@@ -181,6 +181,18 @@ return {
       require('mini.align').setup { mappings = { start = '', start_with_preview = 'g=' } }
     end,
   },
+
+  {
+    "olimorris/codecompanion.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-treesitter/nvim-treesitter",
+    },
+    config = function ()
+      require "extensions.CodeCompanion"
+    end
+},
+
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
