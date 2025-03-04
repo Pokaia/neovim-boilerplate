@@ -174,23 +174,13 @@ return {
   },
 
   {
-    "github/copilot.vim",
-    lazy = false,
-    config = function ()
-    end
+    "echasnovski/mini.nvim",
+    version = "*",
+    event = 'VeryLazy',
+    config = function()
+      require('mini.align').setup { mappings = { start = '', start_with_preview = 'g=' } }
+    end,
   },
-
-  {
-    "CopilotC-Nvim/CopilotChat.nvim",
-    dependencies = {
-      {"github/copilot.vim"},
-      { "nvim-lua/plenary.nvim", branch = "master" },
-    },
-    build = "make tiktoken",
-    opts = {
-    },
-  },
-
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
