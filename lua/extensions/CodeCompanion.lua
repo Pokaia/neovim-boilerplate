@@ -4,7 +4,7 @@ require("codecompanion").setup({
 			return require("codecompanion.adapters").extend("ollama", {
 				schema = {
 					model = {
-						default = "llama3.2"
+						default = "codellama"
 					},
 				},
 			})
