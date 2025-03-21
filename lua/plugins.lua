@@ -191,7 +191,14 @@ return {
     config = function ()
       require "extensions.CodeCompanion"
     end
-},
+  },
+
+  {
+    "opdavies/toggle-checkbox.nvim",
+    config = function()
+      vim.keymap.set("n", "<leader>tc", ":lua require('toggle-checkbox').toggle()<CR>")
+    end,
+  },
 
 }
 
