@@ -16,7 +16,6 @@ mason_lspconfig.setup({
     "cssls",              -- LSP for CSS
     "dockerls",           -- LSP for Docker
     "pyright",            -- LSP for Python
-    "volar",              -- LSP for Vue
 	"marksman",           -- LSP for Markdown
 	"intelephense",
 	"jsonls",
