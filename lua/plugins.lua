@@ -204,6 +204,15 @@ return {
     "duane9/nvim-rg",
     config = function()
     end,
+  },
+
+  {
+    'glepnir/nerdicons.nvim',
+    cmd = 'NerdIcons',
+    config = function()
+      require('nerdicons').setup({})
+      vim.keymap.set("n", "<leader>e", ":NerdIcons<CR>")
+    end
   }
 }
 
