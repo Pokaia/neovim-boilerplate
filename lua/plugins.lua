@@ -207,12 +207,10 @@ return {
   },
 
   {
-    'glepnir/nerdicons.nvim',
-    cmd = 'NerdIcons',
+    "chrisbra/unicode.vim",
+    lazy = false,
     config = function()
-      require('nerdicons').setup({})
-      vim.keymap.set("n", "<leader>e", ":NerdIcons<CR>")
-    end
+    end,
   }
 }
 
