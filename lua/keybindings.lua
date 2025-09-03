@@ -27,7 +27,7 @@ nm('tt', '<cmd>Telescope lsp_dynamic_workspace_symbols<CR>')              -- Sea
 -- Trouble {{{
 -- nm('<leader>x', '<cmd>TroubleToggle<CR>')                                         -- Show all problems in project (with help of LSP)
 -- nm('gr', '<cmd>Trouble lsp_references<CR>')                                       -- Show use of object in project
-nm('<leader>p', '<cmd>Trouble diagnostics toggle pinned=true win.relative=win win.position=right filter.buf=0<cr>')
+nm('<leader>p', '<cmd>Trouble diagnostics toggle pinned=true win.relative=win win.position=bottom filter.buf=0<cr>')
 -- }}}
 
 -- Neo Tree {{{
