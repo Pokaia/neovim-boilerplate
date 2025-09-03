@@ -30,7 +30,7 @@ nm('gr', '<cmd>Trouble lsp_references<CR>')                                     
 -- }}}
 
 -- Neo Tree {{{
-nm('<leader>v', '<cmd>NeoTreeFocusToggle<CR>')                                        -- Toggle file explorer
+nm('<leader>v', '<cmd>Neotree toggle<CR>')                                        -- Toggle file explorer
 -- }}}
 
 -- General Vim

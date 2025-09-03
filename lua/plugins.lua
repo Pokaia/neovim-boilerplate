@@ -25,7 +25,7 @@ return {
   -- Neo Tree {{{
   {
     "nvim-neo-tree/neo-tree.nvim",
-    branch = "v2.x",
+    branch = "v3.x",
     dependencies = {
       "nvim-lua/plenary.nvim",
       "MunifTanjim/nui.nvim",
@@ -39,7 +39,7 @@ return {
   -- Telescope {{{
   {
     'nvim-telescope/telescope.nvim',
-    tag = '0.1.1',
+    branch = '0.1.x',
     lazy = false,
     dependencies = {
       "nvim-lua/plenary.nvim",
