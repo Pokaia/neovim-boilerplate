@@ -43,4 +43,8 @@ nm('<leader>s', '<cmd>SymbolsOutline<cr>')
 -- tagbar
 nm('<leader>t', '<cmd>TagbarToggle<cr>')
 
+-- toggleterm
+nm('<F10>', '<cmd>ToggleTerm direction=float<cr>')
+im('<F10>', '<cmd>ToggleTerm direction=float<cr>')
+
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0

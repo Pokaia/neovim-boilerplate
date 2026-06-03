@@ -210,7 +210,14 @@ return {
     lazy = false,
     config = function()
     end,
-  }
+  },
+
+  {
+    "akinsho/toggleterm.nvim",
+    config = function ()
+      require "extensions.toggleterm"
+    end,
+  },
 }
 
 -- vim:tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=0 foldlevel=0
